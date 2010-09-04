@@ -1,0 +1,55 @@
+set ruler
+set showmode
+set textwidth=0
+let g:leave_my_text_alone=1
+set showmatch
+set ignorecase
+set tabstop=2
+set expandtab
+set autoindent
+set shiftwidth=2
+set smarttab
+set softtabstop=2
+set guifont=Monaco:h13
+set incsearch
+set smartcase
+set guioptions-=T
+set backspace=indent,eol,start
+set number
+set title
+set wildmenu
+set showcmd
+set showtabline=1
+set pastetoggle=<F5>
+set encoding=utf-8
+set wildmode=list:longest
+"set autochdir
+
+
+:nnoremap ; :
+:nnoremap : ;
+map <leader>tt :tabnew<cr>
+map <leader>te :tabedit
+map <leader>tc :tabclose<cr>
+map <leader>tn :tabnext<cr>
+map <leader>tp :tabprevious<cr>
+map <leader>tf :tabfirst<cr>
+map <leader>tl :tablast<cr>
+map <leader>tm :tabmove
+
+"imap <Tab> <C-N>
+"imap <S-Tab> <C-P>
+
+colorscheme zenburn
+:let g:zenburn_high_Contrast=1
+syntax enable
+filetype on
+filetype plugin on
+
+let NERDTreeShowHidden=0
+noremap <silent> <F6> :NERDTreeToggle<CR>
+
+:vmap > >gv
+:vmap < <gv
+:vmap <Tab> >gv
+:vmap <S-Tab> <gv

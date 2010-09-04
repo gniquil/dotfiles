@@ -1,0 +1,28 @@
+source ~/.git-completion.sh
+export CLICOLOR=1
+export PS1='\[\e]0;\w\a\]\n\[\e[34m\]\u@\h \[\e[31m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+export LSCOLORS=exfxcxdxbxegedabagacad
+
+export SQLPATH=/usr/local/instantclient
+export NLS_LANG=AMERICAN_AMERICA.UTF8
+##
+# Your previous /Users/frank/.bash_login file was backed up as /Users/frank/.bash_login.macports-saved_2010-08-06_at_18:19:02
+##
+
+# MacPorts Installer addition on 2010-08-06_at_18:19:02: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+export PATH=/Users/frank/bin:$PATH
+
+export EDITOR=vim
+
+alias la="ls -a"
+alias ll="ls -l"
+alias lla="ls -al"
+alias lal="ls -al"
+alias l="ls"
+alias v="mvim"
+alias m="mate"
+
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
