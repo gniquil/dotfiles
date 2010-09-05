@@ -1,6 +1,6 @@
 source ~/.git-completion.sh
 export CLICOLOR=1
-export PS1='\[\e]0;\w\a\]\n\[\e[34m\]\u@\h \[\e[31m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
+export PS1='\[\e]0;\w\a\]\n\[\e[36m\]\u@\h \[\e[31m\]\w\[\e[0m\]$(__git_ps1 " (%s)")\n\$ '
 export LSCOLORS=exfxcxdxbxegedabagacad
 
 export SQLPATH=/usr/local/instantclient
