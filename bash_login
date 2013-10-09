@@ -12,5 +12,6 @@ export PATH=$HOME/bin:$PATH
 export EDITOR='subl -w'
 
 alias ls='ls -aF'
-
 alias s="subl"
+alias gco='git checkout'
+alias gst='git status'
